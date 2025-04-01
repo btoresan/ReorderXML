@@ -34,9 +34,11 @@ python OrderDir.py InputXml.xml OutputXML.xml
 Your XML should have the following format for proper processing:
 
 ```xml
-<page>
-    <item x0="0" x1="100" y0="0" y1="50">Text from the top-left box</item>
-    <item x0="0" x1="100" y0="51" y1="100">Text from the second box</item>
-    <item x0="101" x1="200" y0="0" y1="50">Text from the top-right box</item>
-    <item x0="101" x1="200" y0="51" y1="100">Text from the second box on the right</item>
-</page>
+<document>
+    <page>
+        <item x0="0" x1="100" y0="0" y1="50">Text from the top-left box</item>
+        <item x0="0" x1="100" y0="51" y1="100">Right below the top-lefte</item>
+        <item x0="101" x1="200" y0="51" y1="100">Below and on the right</item>
+        <item x0="101" x1="200" y0="0" y1="50">Text from the top-right box</item>
+    </page>
+</document>
